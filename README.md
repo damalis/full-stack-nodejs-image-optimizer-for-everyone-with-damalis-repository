@@ -3,8 +3,10 @@
 If You want to build a website optimized image with Node.js at short time;
 
 #### Full stack Node.js image optimizer:
-<p align="left"> <a href="https://nodejs.org/en" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="https://avatars.githubusercontent.com/u/9950313?s=200&v=4" alt="node.js" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; 
-<a href="https://github.com/damalis?tab=repositories" target="_blank" rel="noreferrer" style="text-decoration: none;"> <img src="https://avatars.githubusercontent.com/u/11361779?v=4" alt="damalis" width="40" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp;</p>
+<p align="left">
+<a href="https://nodejs.org/en" rel="noreferrer" style="!important text-decoration: none;"> <img src="https://avatars.githubusercontent.com/u/9950313?s=200&v=4" alt="node.js" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; 
+<a href="https://github.com/damalis?tab=repositories" rel="noreferrer" style="text-decoration: none;"> <img src="https://avatars.githubusercontent.com/u/11361779?v=4" alt="damalis" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp;
+</p>
 
 ### How to 
 
