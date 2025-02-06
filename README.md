@@ -31,8 +31,8 @@ add the below code snippets in "docker-compose.yml" file.
         working_dir: /home/node
         volumes:
             - type: bind
-              source: ./node/app
-              target: /home/node/app
+              source: ./node
+              target: /home/node
             - 'html:${WEBSERVER_DOC_ROOT}'
         hostname: node
         restart: unless-stopped
@@ -43,7 +43,7 @@ add the below code snippets in "docker-compose.yml" file.
             TZ: '${LOCAL_TIMEZONE}'
         labels:
             - 'docker-volume-backup.stop-during-backup=true'
-        command: bash -c 'apt-get update && apt-get upgrade -y && apt-get install -y openssh-server && service ssh start && npm init -y && tail -f /dev/null'
+        command: bash -c "apt-get update && apt-get upgrade -y && apt-get install -y openssh-server && sed -ri 's/^UsePAM yes/UsePAM no/' /etc/ssh/sshd_config && echo $'Port 3000\\nPermitEmptyPasswords yes\\nPermitRootLogin yes' > /etc/ssh/sshd_config.d/image.conf && service ssh start && passwd -d root && npm install && tail -f /dev/null"
 ```
 
 and
