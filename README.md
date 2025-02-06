@@ -3,7 +3,7 @@
 If You want to build a website optimized image with Node.js at short time;
 
 #### Full stack Node.js image optimizer:
-<p align="left"> <a href="https://nodejs.org/en" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/9950313?s=200&v=4" alt="node.js" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; 
+<p align="left"> ![Kitten](https://avatars.githubusercontent.com/u/9950313?s=200&v=4 "node.js"){: width=40 height=40}<a href="https://nodejs.org/en" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/9950313?s=200&v=4" alt="node.js" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; 
 <a href="https://github.com/damalis?tab=repositories" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/11361779?v=4" alt="damalis" width="40" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp;</p>
 
 ### How to 
