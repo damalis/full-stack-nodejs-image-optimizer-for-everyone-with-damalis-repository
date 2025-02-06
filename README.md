@@ -60,7 +60,7 @@ continue the wordpress damalis repository guide.
 
 #### Finally, 
 
-open the functions.php file to WordPress folder using a text editor like nano or Sublime Text. Add the below code snippet at the bottom of the file.
+open the functions.php file to WordPress theme folder using a text editor like nano or Sublime Text. Add the below code snippet at the bottom of the file.
 
 ```
 add_action( "add_attachment", "optimizer_image", 10, 1);
