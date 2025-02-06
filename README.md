@@ -1,4 +1,4 @@
-# [full stack Nodejs for everyone with damalis repository](https://github.com/damalis/full-stack-nodejs-for-everyone-with-damalis-repository)
+# [full stack Nodejs image optimizer for everyone with damalis repository](https://github.com/damalis/full-stack-nodejs-image-optimizer-for-everyone-with-damalis-repository)
 
 If You want to build a website optimized image with Node.js at short time;
 
