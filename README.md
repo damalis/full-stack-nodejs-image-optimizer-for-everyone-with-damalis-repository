@@ -24,7 +24,7 @@ add the below code snippets in "docker-compose.yml" file.
     node:
         depends_on:
             - webserver
-        image: 'node:latest'        
+        image: 'node:latest'
         container_name: node
         networks:
             - backend
@@ -37,11 +37,11 @@ add the below code snippets in "docker-compose.yml" file.
         hostname: node
         restart: unless-stopped
         ports:
-            - '3000:3000'        
+            - '3000:3000'
         environment:
             NODE_ENV: 'production'
             TZ: '${LOCAL_TIMEZONE}'
-        labels:            
+        labels:
             - 'docker-volume-backup.stop-during-backup=true'
         command: bash -c 'apt-get update && apt-get upgrade -y && apt-get install -y openssh-server && service ssh start && npm init -y && tail -f /dev/null'
 ```
