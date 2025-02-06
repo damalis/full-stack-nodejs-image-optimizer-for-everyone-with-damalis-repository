@@ -15,7 +15,7 @@ download with
 ```
 git clone <wordpress damalis repository>
 cd <the wordpress damalis repository folder>
-git clone https://github.com/damalis/full-stack-nodejs-for-everyone-with-damalis-repository.git node
+git clone https://github.com/damalis/full-stack-nodejs-image-optimizer-for-everyone-with-damalis-repository.git node
 ```
 
 add the below code snippets in "docker-compose.yml" file.
